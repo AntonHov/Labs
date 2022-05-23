@@ -1,68 +1,132 @@
 body{
     margin: 0;
 }
+
+.text0 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.text0 h4{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: inherit;
+    height: auto;
+    width:auto;
+    font-size: 1vw;
+    max-width: 50%;
+}
+
+.text0 h4{
+    font-weight: 500;
+    font-size: inherit;
+    font-size: 1vw;
+}
+
 /*main page*/
 .block_image img {
-    height: 150px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
 }
 
 .up,.down {
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
+    background-color:black;
+    padding: 3%;
 }
 
-.main_content {
-    padding-top: 5%;
+
+
+.centre1 .text22{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 1vw;
 }
 
 .block_text{
     text-align: center;
     width: auto;
     height: auto;
-    margin-top: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
 }
 
 .centre{
-    text-align: center;
-    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: while;
+    margin: 3%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .centre .block_image img {
-    height: 250px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
 }
 
-.up_right,.down_right{
+.centre .block_image{
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 15vw;
+    width: 8vw;
+}
+
+
+.centre1 .centre .block_text{
+    padding-left: 5%;
+    font-size: 100%;
+    margin: 0;
+    padding-right: 5%;
+    margin-top: 2%;
+    font-size: 1vw;
+}
+
+.centre .block_text h1 {
+    margin: 1%;
+    height: auto;
+    width:auto;
+    font-size: 2vw;
+}
+
+
+.centre .block_text .text22  h3{
+    height: auto;
+    width:auto;
+    font-weight: auto;
+    margin: 1%;
+    font-size: 1,5vw;
+}
+
+.up_right,.down_right,.up_left,.down_left{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.up_left,.down_left{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .up div,.down div{
-    background: #a2a2a1;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
+    background: #66CCCC;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
     border-radius: 10px;
 }
 
 .centre img{
-    background: #729fc4;
-    padding: 15px
+    padding: 5%
 }
 
 .button h2{
-    margin: 0;
-    height:25px;
-    width:auto;
-    font-weight: normal;
+    margin: 1%;
+    font-size: inherit;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .centre h1{

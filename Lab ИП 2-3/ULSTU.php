@@ -8,6 +8,11 @@
 </head>
 <body>
 <div class="main_content1">
+<div class = "text0">
+        <h4>Галерея</h4>
+        <h4>Регистрация</h4>
+        <h4>Вход</h4>
+    </div>
     <div class="text1_">
         <h2>1 курс УЛГТУ</h2>
     </div>
@@ -28,12 +33,12 @@
         </div>
     </div>
     <div class="block_image2">
-        <img src="images/14.png" title="Мое фото" alt="Фото не отобразилось">
+        <img src="images/14.jpg" title="Мое фото" alt="Фото не отобразилось">
     </div>
 </div>
 <div class="button">
     <div class="block_text">
-        <button class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></button>
+        <div class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></div>
     </div>
 </div>
 </div>

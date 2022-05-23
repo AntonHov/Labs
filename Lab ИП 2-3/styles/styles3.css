@@ -1,7 +1,56 @@
+.text0 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.block_text{
+    padding-left: 5%;
+    font-size: 100%;
+    margin: 0;
+    padding-right: 5%;
+    margin-top: 2%;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.text0 h4{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: inherit;
+    height: auto;
+    width:auto;
+    font-size: 1vw;
+    max-width: 50%;
+}
+
+.text0 h4{
+    font-weight: 500;
+    font-size: inherit;
+    font-size: 1vw;
+}
 .text1_ {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    padding-left: 5%;
+    font-size: 100%;
+    margin: 0;
+    padding-right: 5%;
+    font-size: 1vw;
+}
+
+.text1_ h2{
+    background: #a2a2a1;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.text1_ {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
 }
 
 .text1_ h2{
@@ -14,25 +63,28 @@
 }
 
 .text2 img {
-    margin-top: 10%;
     background: #a2a2a1;
-    padding:15px;
+    padding:1%;
+    height: 11vw;
+    width: 11vw;
     border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    margin-right: 60px;
-    margin-left: 80px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
-
+.text2 .block_text{
+    margin: 0;
+}
 .text2 {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 1%;
+    background-color: black;
+    padding-top: 1%;
 }
 
 .text2 .block_text h3{
     max-width: 350px;
-    background: #a2a2a1;
+    background: coral;
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 10px;
@@ -42,19 +94,21 @@
 .text3 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 .text3 img{
-    height: 200px;
-    width: 200px;
     background: #a2a2a1;
-    padding:15px;
+    padding:1%;
+    height: 11vw;
+    width: 11vw;
     border-radius: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 .text3 .block_text h3{
     max-width: 400px;
-    background: #a2a2a1;
+    background: coral;
     margin-right: 20px;
     margin-left: 50px;
     border-radius: 10px;
@@ -70,4 +124,11 @@
     margin-bottom: 25px;
     display: flex;
     justify-content: space-around;
+    
+}
+
+.button .block_text h2{
+    background: #a2a2a1;
+    justify-content: center;
+    padding-left: 25%;
 }

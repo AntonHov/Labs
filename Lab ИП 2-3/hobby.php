@@ -8,6 +8,11 @@
 </head>
 <body>
 <div class="main_content1">
+<div class = "text0">
+        <h4>Галерея</h4>
+        <h4>Регистрация</h4>
+        <h4>Вход</h4>
+    </div>
     <div class="text1">
         <div class="text1_">
             <h2>Хобби</h2>
@@ -20,12 +25,12 @@
             </div>
         </div>
         <div class="block_image2">
-            <img src="images/15.jpeg" title="Мое фото" alt="Фото не отобразилось">
+            <img src="images/15.jpg" title="Мое фото" alt="Фото не отобразилось">
         </div>
     </div>
     <div class="text3">
         <div class="block_image">
-            <img src="images/16.jpeg" title="Мое фото" alt="Фото не отобразилось">
+            <img src="images/16.jpg" title="Мое фото" alt="Фото не отобразилось">
         </div>
         <div class="block_text">
             <h3>Мне хочется в ближайшем будущем завести какие - нибудь хобби, потому что текущее себя исчерпало, вследствии чего я в свободное время просто залипаю в телефоне.</h3>
@@ -36,7 +41,7 @@
     </div>
     <div class="button">
         <div class="block_text">
-            <button class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></button>
+            <div class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></div>
         </div>
     </div>
 </div>

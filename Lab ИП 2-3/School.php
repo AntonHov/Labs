@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Школа</title>
@@ -8,6 +8,11 @@
 </head>
 <body>
     <div class="main_content1">
+    <div class = "text0">
+        <h4>Галерея</h4>
+        <h4>Регистрация</h4>
+        <h4>Вход</h4>
+    </div>
         <div class="text1">
             <div class="text1_">
                 <h2>Школа</h2>
@@ -24,19 +29,10 @@
                 <img src="images/7.jpg" title="Мое фото" alt="Фото не отобразилось">
             </div>
         </div>
-        <div class="text3">
-            <div class="block_text">
-                <div class="block_text">
-                    <h3>В течение обучения в школе я принимал участия во многих олимпиадах таких как: Кенгуру, Русский медвежонок и КИТ. Несколько раз я занимал первые маста в школе и получал в подарок школьные принадлежности.</h3>
-                </div>
-            </div>
-            <div class="block_image2">
-                <img src="images/8.jpg" title="Мое фото" alt="Фото не отобразилось">
-            </div>
-        </div>
+        
         <div class="text4">
             <div class="block_image3">
-                <img src="images/9.png" title="Мое фото" alt="Фото не отобразилось">
+                <img src="images/9.jpg" title="Мое фото" alt="Фото не отобразилось">
             </div>
             <div class="block_text">
                 <div class="block_text">
@@ -46,7 +42,7 @@
         </div>
         <div class="button">
             <div class="block_text">
-                <button class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></button>
+                <div class="button" onclick="window.location='/index.php'"><h2>Главная страница</h2></div>
             </div>
         </div>
     </div>

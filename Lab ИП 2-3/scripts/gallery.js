@@ -1,8 +1,8 @@
 let numberImage = 1;
-const countImage = 3;
-const pathImages = "/images/gallery/";
+const countImage = 6;
+const pathImages = "img/gallery/";
 const countDiv = 15;
-const speed = 100;
+const speed = 50;
 
 
 /**
@@ -29,15 +29,17 @@ function generateImage()
  * \
  */
 
-function changeImage()
-{
-    let image = pathImages+"0"+numberImage+".jpg";
-    let i=1;
-    $( "#mainImage div").each(function() {
+ function changeImage() {
 
-        $(this).fadeOut( speed*i, function() {
+    let image = pathImages + "0" + numberImage + ".jpg";
+    let i = 5;
+    let j = 5;
+
+    $("#mainImage div").each(function () {
+
+        $(this).hide(speed * j, function () {
             $(this).css("background-image", 'url('+image+')');
-            $(this).fadeIn( speed*i);
+            $(this).show(speed * i);
         });
         i++;
     });
